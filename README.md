@@ -14,11 +14,13 @@ Quantifying the "lifetime" of a project entails some [philosophical questions](h
 
 The current working title for this project.
 
+### formerly
+
+A list of any names this project may have gone by in the past.
+
 ### description
 
 A short logline / pitch for the project.
-
-If the name of the project changes, a "formerly known as" footnote will go here.
 
 ### stage
 
