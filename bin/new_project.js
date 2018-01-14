@@ -29,6 +29,38 @@ function deleteEmptyStringProperties(obj) {
   }
 }
 
+function indented(prefix, str) {
+  return prefix + str.replace(/\n/g, '\n' + prefix);
+}
+
+function projectYaml(project) {
+  const lineBuffer = [];
+
+  if (project.name)
+    lineBuffer.push(`name: ${project.name}`);
+
+  if (project.description)
+    lineBuffer.push(`description: ${yaml.dump(project.description).trim()}`);
+
+  if (project.stage)
+    lineBuffer.push(`stage: ${project.stage}`);
+
+  if (project.status)
+    lineBuffer.push(`status: >-\n${indented('  ', project.status)}`);
+
+  if (project.urls) {
+    lineBuffer.push('urls:');
+    for (let key of Object.keys(project.urls)) {
+      lineBuffer.push(`  ${key}: ${project.urls[key]}`);
+    }
+  }
+
+  if (project.dex)
+    lineBuffer.push(`dex: ${project.dex}`);
+
+  return lineBuffer.join('\n') + '\n';
+}
+
 inquirer.prompt(prompts).then(project => {
   deleteEmptyStringProperties(project);
   deleteEmptyStringProperties(project.urls);
@@ -37,6 +69,6 @@ inquirer.prompt(prompts).then(project => {
     project.dex = parseFloat(project.dex);
   }
   const id = uuid();
-  fs.writeFileSync(`projects/${id}.yaml`, yaml.dump(project), 'utf8');
+  fs.writeFileSync(`projects/${id}.yaml`, projectYaml(project), 'utf8');
   console.log(`/projects/${id}.yaml`);
 });
