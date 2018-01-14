@@ -3,5 +3,6 @@ description: A user account management system / library for Node apps
 stage: 1
 status: >
   I've got a domain for this, but no concrete work yet.
-repository: https://github.com/accouch
+urls:
+  repo: https://github.com/accouch
 initiative: 30

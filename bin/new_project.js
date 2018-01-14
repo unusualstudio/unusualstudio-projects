@@ -13,9 +13,13 @@ const prompts = [
     {name: '3 (Polished)', value: 3}
   ]},
   {name: 'status'},
-  {name: 'logo'},
-  {name: 'homepage'},
-  {name: 'repository'},
+  {name: 'urls.logo'},
+  {name: 'urls.home'},
+  {name: 'urls.info'},
+  {name: 'urls.repo'},
+  {name: 'urls.news'},
+  {name: 'urls.todo'},
+  {name: 'urls.workspace'},
   {name: 'initiative'}
 // until https://github.com/SBoudrias/Inquirer.js/pull/636 is merged
 ].map(q=>{if (!q.message) q.message = q.name + ':'; return q});

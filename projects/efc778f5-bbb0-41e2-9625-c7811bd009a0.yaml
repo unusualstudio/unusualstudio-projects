@@ -3,6 +3,7 @@ description: A chat site using tags instead of channels
 stage: 1
 status: >
   A lot of design work and a *very* rudimentary prototype.
-logo: https://avatars3.githubusercontent.com/u/12602282
-repository: https://github.com/dingroll
+urls:
+  logo: https://avatars3.githubusercontent.com/u/12602282
+  repo: https://github.com/dingroll
 initiative: 97

@@ -3,5 +3,6 @@ description: An app for flashing dead pixels back to life
 stage: 1
 status: >
   I've got a domain and an idea for a logo.
-repository: https://github.com/pixunstick
+urls:
+  repo: https://github.com/pixunstick
 initiative: 10
