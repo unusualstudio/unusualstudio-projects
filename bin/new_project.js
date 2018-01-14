@@ -24,10 +24,16 @@ const prompts = [
 // until https://github.com/SBoudrias/Inquirer.js/pull/636 is merged
 ].map(q=>{if (!q.message) q.message = q.name + ':'; return q});
 
-inquirer.prompt(prompts).then(project => {
-  for (let key of Object.keys(project)) {
-    if (project[key] === '') delete project[key];
+function deleteEmptyStringProperties(obj) {
+  for (let key of Object.keys(obj)) {
+    if (obj[key] === '') delete obj[key];
   }
+}
+
+inquirer.prompt(prompts).then(project => {
+  deleteEmptyStringProperties(project);
+  deleteEmptyStringProperties(project.urls);
+  if (Object.keys(project.urls).length == 0) delete project.urls;
   if (project.dex !== undefined) {
     project.dex = parseFloat(project.dex);
   }
