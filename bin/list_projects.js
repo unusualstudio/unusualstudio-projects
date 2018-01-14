@@ -35,11 +35,8 @@ function deleteProjectByFile(filename) {
 
 fs.readdir('projects').then(names =>
   Promise.all(names.map(name =>
-    fs.readFile(path.join('projects',name)).then(data =>
-      [name.replace(/\.yaml$/,''), yaml.load(data)])))
-).then(projectData =>{
-  for (let [id, data] of projectData) projectStore.set(id, data);
-}).then(()=>{
+    updateProjectFromFile(path.join('projects', name))))
+).then(()=>{
   live = true;
   writeList();
   chokidar.watch('projects', {ignoreInitial: true})
