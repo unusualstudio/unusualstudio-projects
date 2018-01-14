@@ -34,9 +34,11 @@ Which "stage" the project is at, as a number from 0 to (currently) 3:
 
 These correspond to the four leftmost lists in the Trello board where I had previously been tracking my projects: the other two, "Limbo" and "Forgotten", will either be represented as -1 and -2 (respectively), or not included in this repository.
 
+Understanding [how I generally approach projects](https://github.com/stuartpb/how-i-roll/blob/master/starting/apps.md) may be helpful in understanding the progression from stage 0 to stage 1.
+
 ### status
 
-A long-form description of what's been done and what needs to be done.
+A long-form Markdown description of what's been done and what needs to be done.
 
 ### logo
 
@@ -46,7 +48,7 @@ The URL of an image to represent this project.
 
 A URL that points to the live home for this project.
 
-### repo
+### repository
 
 A URL that points to the development portal for this project.
 
