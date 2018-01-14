@@ -19,7 +19,6 @@ const prompts = [
   {name: 'urls.repo'},
   {name: 'urls.news'},
   {name: 'urls.todo'},
-  {name: 'urls.workspace'},
   {name: 'dex'}
 // until https://github.com/SBoudrias/Inquirer.js/pull/636 is merged
 ].map(q=>{if (!q.message) q.message = q.name + ':'; return q});

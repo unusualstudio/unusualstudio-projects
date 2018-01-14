@@ -70,10 +70,6 @@ A URL pointing to a changelog / news feed for this project (what's already been 
 
 A URL pointing to a roadmap / "what needs to be done" page for this project.
 
-### urls.workspace
-
-A URL that points to my live workspace for the project.
-
 ### dex
 
 A magic number that ranks certain projects, in lieu of a proper ranking system. Higher numbers go higher to the top. (The planned scale is to be something like 0-30, but, since it's all completely arbitrary, I don't have to follow that.)
