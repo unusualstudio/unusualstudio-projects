@@ -20,7 +20,7 @@ const prompts = [
   {name: 'urls.news'},
   {name: 'urls.todo'},
   {name: 'urls.workspace'},
-  {name: 'initiative'}
+  {name: 'dex'}
 // until https://github.com/SBoudrias/Inquirer.js/pull/636 is merged
 ].map(q=>{if (!q.message) q.message = q.name + ':'; return q});
 
@@ -28,8 +28,8 @@ inquirer.prompt(prompts).then(project => {
   for (let key of Object.keys(project)) {
     if (project[key] === '') delete project[key];
   }
-  if (project.initiative !== undefined) {
-    project.initiative = parseFloat(project.initiative);
+  if (project.dex !== undefined) {
+    project.dex = parseFloat(project.dex);
   }
   const id = uuid();
   fs.writeFileSync(`projects/${id}.yaml`, yaml.dump(project), 'utf8');

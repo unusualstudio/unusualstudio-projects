@@ -1,4 +1,4 @@
 name: magickshop
 description: A photo-editing GUI that generates ImageMagick / GraphicsMagick command lines
 stage: 0
-initiative: 20
+dex: 6
