@@ -20,11 +20,10 @@ function writeList() {
 
 function updateProjectFromFile(filename) {
   const id = path.basename(filename).replace(/\.yaml$/,'');
-  return fs.readFile(filename)
-    .then(data => {
-      projectStore.set(id, yaml.load(data));
-      if (live) writeList();
-    });
+  return fs.readFile(filename).then(data => {
+    projectStore.set(id, yaml.load(data));
+    if (live) writeList();
+  });
 }
 
 function deleteProjectByFile(filename) {
@@ -33,10 +32,9 @@ function deleteProjectByFile(filename) {
   if (live) writeList();
 }
 
-fs.readdir('projects').then(names =>
-  Promise.all(names.map(name =>
-    updateProjectFromFile(path.join('projects', name))))
-).then(()=>{
+fs.readdir('projects').then(names => Promise.all(
+  names.map(name => updateProjectFromFile(path.join('projects', name))))
+).then(() => {
   live = true;
   writeList();
   chokidar.watch('projects', {ignoreInitial: true})
