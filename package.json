@@ -1,0 +1,26 @@
+{
+  "name": "unusualstudio-projects",
+  "version": "0.1.0",
+  "description": "All the projects I'm interested in pursuing on Unusual Studio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unusualstudio/unusualstudio-projects.git"
+  },
+  "author": "Stuart P. Bentley <s@stuartpb.com>",
+  "bugs": {
+    "url": "https://github.com/unusualstudio/unusualstudio-projects/issues"
+  },
+  "homepage": "https://github.com/unusualstudio/unusualstudio-projects#readme",
+  "dependencies": {
+    "chokidar": "^2.0.0",
+    "clear": "0.0.1",
+    "inquirer": "^5.0.0",
+    "js-yaml": "^3.10.0",
+    "mz": "^2.7.0",
+    "uuid": "^3.1.0"
+  }
+}
