@@ -20,7 +20,7 @@ A list of any names this project may have gone by in the past.
 
 ### description
 
-A short logline / pitch for the project.
+A short logline / pitch for the project, phrased as how it would be described following the words "(Name) is..." (eg. "A browser extension for stashing away groups of unused tabs" for Tabalanche).
 
 ### stage
 
@@ -40,7 +40,7 @@ Understanding [how I generally approach projects](https://github.com/stuartpb/ho
 
 ### status
 
-A long-form Markdown description of what's been done and what needs to be done.
+A brief Markdown description of what's been done and what would be next.
 
 ### urls.logo
 
