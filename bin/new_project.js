@@ -38,5 +38,5 @@ inquirer.prompt(prompts).then(project => {
   }
   const id = uuid();
   fs.writeFileSync(`projects/${id}.yaml`, yaml.dump(project), 'utf8');
-  console.log(id);
+  console.log(`/projects/${id}.yaml`);
 });
