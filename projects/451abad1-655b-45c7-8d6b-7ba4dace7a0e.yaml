@@ -1,0 +1,10 @@
+name: vixiv
+description: Stuff for the Nintendo DSiWare game X-Scape
+status: >-
+  I originally started working on this before I even knew web development.
+
+  It's been so long since this project was relevant to me, I'm not even sure
+  where my DSiXL *is*.
+urls:
+  repo: https://github.com/stuartpb/vixiv
+dex: 1

@@ -1,0 +1,12 @@
+name: Pull Tool
+description: 'A tool for one-shot downloading, extracting, and patching archives'
+stage: 2
+status: >-
+  Needs UI polish and documentation. Could use some back-end refactoring.
+urls:
+  logo: https://avatars0.githubusercontent.com/u/15097224
+  home: http://www.pulltool.com/
+  info: https://github.com/stuartpb/help-wanted#pull-tool
+  repo: https://github.com/pulltool
+  todo: https://github.com/stuartpb/help-wanted#what-needs-to-be-done-6
+dex: 4

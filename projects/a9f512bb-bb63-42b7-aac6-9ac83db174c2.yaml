@@ -1,0 +1,7 @@
+name: restockr
+description: >-
+  An app that tracks your groceries, from cupboard to cart and back again
+status: >-
+  This is based on the way I've been handling my grocery list in Trello for
+  years.
+dex: 6

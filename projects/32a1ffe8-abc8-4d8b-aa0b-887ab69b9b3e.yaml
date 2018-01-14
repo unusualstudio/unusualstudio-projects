@@ -1,0 +1,10 @@
+name: Tabalanche
+description: A browser extension for stashing away groups of unused tabs
+stage: 2
+status: >-
+  Still need to implement sync. Wouldn't mind simplifying the logo.
+urls:
+  logo: https://avatars0.githubusercontent.com/u/12942492
+  home: https://www.tabalanche.com/
+  repo: https://github.com/tabalanche
+dex: 15

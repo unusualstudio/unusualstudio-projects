@@ -1,8 +1,9 @@
 name: DingRoll
 description: A chat site using tags instead of channels
 stage: 1
-status: >
-  A lot of design work and a *very* rudimentary prototype.
+status: >-
+  I have a *very* clear idea of what I want to build with this; so far, I've
+  only built a *very* rudimentary prototype.
 urls:
   logo: https://avatars3.githubusercontent.com/u/12602282
   repo: https://github.com/dingroll

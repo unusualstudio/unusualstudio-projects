@@ -1,0 +1,7 @@
+name: Original link follower
+description: >-
+  A browser extension providing a button to immediately skip through reblogged
+  content to go directly to its source
+status: >-
+  I've got a reasonable idea of how I'd implement this.
+dex: 5

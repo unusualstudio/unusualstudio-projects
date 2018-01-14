@@ -1,0 +1,9 @@
+name: OKCommand
+description: A site for proposing commands to run and one-click running them
+stage: 1
+status: >-
+  Has domain, logo, and some idea what the site should look like.
+urls:
+  logo: https://avatars0.githubusercontent.com/u/17325372
+  repo: https://github.com/okcommand
+dex: 2

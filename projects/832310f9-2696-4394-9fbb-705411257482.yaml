@@ -1,0 +1,7 @@
+name: codekoth
+description: >-
+  A site that hosts King of the Hill competitions a la
+  https://codegolf.stackexchange.com/questions/tagged/king-of-the-hill
+status: >-
+  Could be a fun project to get to know Kubernetes with.
+dex: 4

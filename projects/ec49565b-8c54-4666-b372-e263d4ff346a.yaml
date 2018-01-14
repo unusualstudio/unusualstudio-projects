@@ -1,0 +1,5 @@
+name: crossup
+description: >-
+  A tool using the package data from pkgs.org to make setup/migration easy
+  across Linux distros
+dex: 5

@@ -1,0 +1,12 @@
+name: NilPass
+description: A browser extension that eliminates passwords altogether
+stage: 2
+status: >-
+  Needs UI / flow polish.
+urls:
+  logo: https://avatars2.githubusercontent.com/u/12947156
+  home: https://nilpass.com/
+  info: https://github.com/stuartpb/help-wanted#nilpass
+  repo: https://github.com/nilpass
+  todo: https://github.com/stuartpb/help-wanted#what-needs-to-be-done-8
+dex: 17

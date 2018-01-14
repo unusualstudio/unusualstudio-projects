@@ -1,8 +1,10 @@
 name: PixUnstick
 description: An app for flashing dead pixels back to life
 stage: 1
-status: >
-  I've got a domain and an idea for a logo.
+status: >-
+  I broke the Chromebook with a stuck pixel that I would have tested this on,
+  so I'm not particularly interested in working on this; the main thing I feel
+  is missing from this project right now is a logo that's yet to be drawn.
 urls:
   repo: https://github.com/pixunstick
 dex: 3

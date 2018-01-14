@@ -1,0 +1,11 @@
+name: Parked Project
+description: A zero-configuration parking page for project ideas
+stage: 1
+status: >-
+  Needs a more stable live setup; more work on Plushu would help.
+urls:
+  logo: https://avatars1.githubusercontent.com/u/12555849
+  home: https://www.parkedproject.com/
+  info: https://github.com/h5bp/lazyweb-requests/issues/167
+  repo: https://github.com/parkedproject
+dex: 5

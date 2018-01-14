@@ -1,0 +1,12 @@
+name: Edgeslate
+formerly: [Expogrid]
+description: A grid-based prototyping tool
+stage: 1
+status: >-
+  I've got a domain, a rough logo, and some design ideas.
+
+  Next step should be codifying that design model.
+urls:
+  logo: https://avatars3.githubusercontent.com/u/13325267
+  repo: https://github.com/edgeslate
+dex: 12
