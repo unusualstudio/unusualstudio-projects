@@ -1,0 +1,12 @@
+name: Clipsnail
+description: A clipper for HTML content
+stage: 1
+status: >-
+  The main thing I'd want with this today would be a good block storage hookup.
+urls:
+  logo: https://avatars0.githubusercontent.com/u/4468500
+  home: http://clipsnail.com/
+  info: https://github.com/stuartpb/help-wanted#clipsnail
+  repo: https://github.com/clipsnail
+  todo: https://github.com/stuartpb/help-wanted#what-needs-to-be-done-11
+dex: 14

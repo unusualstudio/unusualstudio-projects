@@ -1,0 +1,15 @@
+name: Alphabinary Encoding
+description: >-
+  Tools around the idea that you can express binary data as English prose by
+  using letters as bits based on which half of the alphabet they're in
+stage: 2
+status: >-
+  There's lots of stuff I want to do with this, which may get their own
+  projects: right now, this project is a sort of signifier for "anything that
+  deals with that awesome Alphabi stuff".
+urls:
+  logo: https://avatars2.githubusercontent.com/u/22444410
+  home: https://alpha.bi/
+  info: https://github.com/alphabi/experiment-a0z1
+  repo: https://github.com/alphabi
+dex: 18

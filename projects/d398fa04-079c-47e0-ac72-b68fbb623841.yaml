@@ -1,0 +1,11 @@
+name: PlugMap
+description: 'A live, crowdsourced map of publically-accessible power outlets'
+stage: 2
+status: >-
+  This is one of the first apps I ever wrote; today, I would essentially overhaul all the code other than the art assets and templates.
+urls:
+  logo: https://avatars1.githubusercontent.com/u/9361116
+  home: https://plugmap.com/
+  repo: https://github.com/plugmap
+  todo: https://github.com/stuartpb/help-wanted#what-needs-to-be-done-9
+dex: 10

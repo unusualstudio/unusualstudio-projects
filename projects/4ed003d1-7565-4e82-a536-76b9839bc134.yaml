@@ -1,0 +1,11 @@
+name: License in Three Lines (LITL)
+description: A three-line software license for very small projects
+stage: 2
+status: >-
+  This could use a little more explanation as to its purpose.
+urls:
+  logo: https://litl-license.org/logo.svg
+  home: https://litl-license.org/
+  repo: https://github.com/litl-license
+  todo: https://github.com/stuartpb/help-wanted#what-needs-to-be-done-13
+dex: 6

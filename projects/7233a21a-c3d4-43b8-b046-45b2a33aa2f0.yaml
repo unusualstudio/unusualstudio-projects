@@ -1,0 +1,7 @@
+name: What Is This String?
+description: >-
+  A site / library that matches a given string against a library of format
+  patterns (ie. file(1) for strings)
+status: >-
+  I have domains for this, and a few known structures I'd test against.
+dex: 4

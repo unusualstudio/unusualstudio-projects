@@ -1,0 +1,14 @@
+name: Blotpass
+description: Using intrinsic hashblots as inspiration for passwords
+stage: 2
+status: >-
+  Right now, I do this by going to hashblot.com and entering the string I'd use
+  for a hashblot.
+
+  I was originally thinking I would implement it as a standalone browser
+  extension: nowadays, I think I'll implement it as a feature of NilPass.
+urls:
+  logo: https://avatars0.githubusercontent.com/u/6192961
+  info: https://github.com/stuartpb/hashblot/wiki/About#uses
+  repo: https://github.com/blotpass
+dex: 11

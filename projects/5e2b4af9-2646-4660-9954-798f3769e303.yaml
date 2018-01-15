@@ -1,0 +1,9 @@
+name: tagstrap
+description: A lightweight branding and HTML5 boilerplate generator
+stage: 1
+status: >-
+  I just realized that what I want from this can largely be accomplished with a
+  single fixed body of text.
+urls:
+  repo: https://github.com/tagstrap
+dex: 3

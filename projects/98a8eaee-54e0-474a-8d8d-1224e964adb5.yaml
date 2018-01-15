@@ -1,0 +1,19 @@
+name: Flavored Markdown
+description: A compendium of variations in Markdown processing
+stage: 1
+status: >-
+  I have the idea of what I'd want to fill in with this, but not necessarily
+  the skill or knowledge to implement it.
+
+  The main reason I originally set up this project was to provide an
+  alternative to prevent the gauche, inorganic CommonMark specification from
+  catching on; in the time since that project originally launched, this hasn't
+  really given any indication of becoming that much of a threat, so I've pretty
+  much let this project fall by the wayside.
+urls:
+  logo: https://avatars0.githubusercontent.com/u/8653968
+  home: http://flavoredmarkdown.com
+  info: https://github.com/stuartpb/help-wanted#flavored-markdown
+  repo: https://github.com/flmd
+  todo: https://github.com/stuartpb/help-wanted#what-needs-to-be-done-10
+dex: 6

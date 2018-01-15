@@ -1,0 +1,18 @@
+name: Chatphrase
+description: A video chat site using phrases as room identifiers
+stage: 2
+status: >-
+  I'm not sure if this is currently working; my existing implementation would
+  need a significant overhaul.
+
+  These days, there are a bunch of better-maintained sites that work basically
+  the same way as this was going to work, so without some really fresh ideas
+  that aren't currently being explored, there isn't really anything to add to
+  this.
+urls:
+  logo: https://avatars1.githubusercontent.com/u/6054780
+  home: http://chatphrase.com
+  info: https://github.com/stuartpb/help-wanted#chatphrase
+  repo: https://github.com/chatphrase
+  todo: https://github.com/stuartpb/help-wanted#what-needs-to-be-done-12
+dex: 4

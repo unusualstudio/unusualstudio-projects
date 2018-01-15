@@ -1,0 +1,9 @@
+name: mailshadows
+description: An API portal offering email address masking as a service
+stage: 1
+status: >-
+  I have a domain and logo for this, and some idea as to how I'd implement it.
+urls:
+  logo: https://avatars3.githubusercontent.com/u/6625799
+  repo: https://github.com/mailshadows
+dex: 2

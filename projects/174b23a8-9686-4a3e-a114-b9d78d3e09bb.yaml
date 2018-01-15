@@ -1,0 +1,9 @@
+name: achewatr
+description: A combined interface for reading the Achewood webcomic with its assorted blogs
+stage: 2
+status: >-
+  I mostly just need to redo the backend; now that the comic has effectively ended, I should really just make it pull from static data files or something like that.
+urls:
+  home: http://achewatr.herokuapp.com/
+  repo: https://github.com/stuartpb/achewatr
+dex: 6
