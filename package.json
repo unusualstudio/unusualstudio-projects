@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/unusualstudio/unusualstudio-projects#readme",
   "dependencies": {
+    "chalk": "^2.3.0",
     "chokidar": "^2.0.0",
     "clear": "0.0.1",
     "inquirer": "^5.0.0",

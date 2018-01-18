@@ -1,6 +1,7 @@
 const yaml = require('js-yaml');
 const chokidar = require('chokidar');
 const clear = require('clear');
+const chalk = require('chalk');
 const fs = require('mz/fs');
 const path = require('path');
 
@@ -18,7 +19,8 @@ function writeList() {
     .sort(cfmn(x => x[1].name || x[1].concept, collator.compare));
   if (live) clear();
   for (let [id, {name, concept}] of entries) {
-    console.log(`${id} ${name || concept}`);
+    console.log(`${id} ${name ?
+      chalk.yellowBright(name) : chalk.greenBright(concept)}`);
   }
   console.log(`total ${projectStore.size}`);
 }
