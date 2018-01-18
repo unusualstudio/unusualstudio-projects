@@ -6,6 +6,8 @@ const chalk = require('chalk');
 const fs = require('mz/fs');
 const path = require('path');
 
+const watchMode = argv.watch || argv.w;
+
 const projectStore = new Map();
 let live = false;
 
@@ -48,10 +50,12 @@ function deleteProjectByFile(filename) {
 fs.readdir('projects').then(names => Promise.all(
   names.map(name => updateProjectFromFile(path.join('projects', name))))
 ).then(() => {
-  live = true;
-  writeList();
-  chokidar.watch('projects', {ignoreInitial: true})
-    .on('add', updateProjectFromFile)
-    .on('change', updateProjectFromFile)
-    .on('unlink', deleteProjectByFile);
+  if (watchMode) {
+    live = true;
+    writeList();
+    chokidar.watch('projects', {ignoreInitial: true})
+      .on('add', updateProjectFromFile)
+      .on('change', updateProjectFromFile)
+      .on('unlink', deleteProjectByFile);
+  } else writeList();
 });
