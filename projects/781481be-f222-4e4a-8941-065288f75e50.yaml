@@ -1,10 +1,9 @@
-name: SAFER Methodology
+name: The SACRED Tenets of Foundational Architecture
 description: Writing and thinking about how to do projects right
 stage: 1
 status: >-
-  I've got some rough stuff I laid out in the wee hours of the morning in early
-  January 2018; I need to refine the concept, and reconcile it with a few other
-  projects I've got in the works.
+  I need to refine the concept, and reconcile it with a few other projects I've
+  got in the works.
 urls:
-  repo: https://github.com/stuartpb/safer-methodology
+  repo: https://github.com/stuartpb/sacred-tenets
 dex: 6
