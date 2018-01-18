@@ -1,0 +1,12 @@
+name: latertime
+description: >-
+  A site for discussing / commenting on realtime media (ie. video)
+  asynchronously
+stage: 2
+status: >-
+  The version online right now only supports local video files and has no credentialing system.
+urls:
+  logo: https://github.com/latertime/laterti.me/raw/master/client/latertime.png
+  home: http://laterti.me/
+  repo: https://github.com/latertime
+dex: 12

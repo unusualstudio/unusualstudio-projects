@@ -1,0 +1,9 @@
+name: Clubs
+description: An event aggregator / discovery engine using tagged interests
+status: >-
+  My original design for this was Facebook-centric; I still feel that its main
+  problem is not well-solved, but being less immersed in Facebook today has
+  made a path to engagement for this less clear.
+urls:
+  repo: https://github.com/stuartpb/clubs
+dex: 4

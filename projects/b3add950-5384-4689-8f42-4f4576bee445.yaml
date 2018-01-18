@@ -1,0 +1,11 @@
+name: GitHub Enhancement Suite
+description: A collection of scripts that paper over issues with GitHub
+stage: 2
+status: >-
+  I've got a few scripts written, but no Reddit-Enhancement-Suite-style browser extension collecting them all.
+urls:
+  logo: https://avatars1.githubusercontent.com/u/10448426
+  home:  https://ghes.github.io/
+  repo: https://github.com/ghes
+  todo: https://github.com/isaacs/github/issues/128
+dex: 9

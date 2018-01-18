@@ -1,0 +1,9 @@
+name: Boxesin
+description: An endlessly-nesting text tool kind of like Workflowy
+stage: 1
+status: >-
+  I have a domain, logo, some UX ideas, and some idea of how I want to structure the implementation.
+urls:
+  logo: https://avatars0.githubusercontent.com/u/16187143
+  repo: https://github.com/boxesin
+dex: 12

@@ -1,0 +1,8 @@
+name: Perspective Quantities
+description: A dataset of figures and measures for framing numbers
+stage: 1
+status: >-
+  Nothing yet.
+urls:
+  repo: https://github.com/opensets/perspectivequantities
+dex: 2

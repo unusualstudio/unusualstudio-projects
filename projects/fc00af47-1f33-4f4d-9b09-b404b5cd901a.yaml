@@ -1,0 +1,8 @@
+name: hubstrap
+description: A simple page authoring tool for GitHub Pages
+stage: 1
+status: >-
+  I have the domain and some initial design thoughts for this.
+urls:
+  repo: https://github.com/hubstrap
+dex: 14

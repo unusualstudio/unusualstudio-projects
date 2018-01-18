@@ -1,0 +1,11 @@
+name: Lean Notes
+description: Some notes on how to build stuff on the Web
+stage: 2
+status: >-
+  Right now, I have bunch of notes in the form of cards on Trello; I'm moving
+  to migrate them to Markdown files on GitHub.
+urls:
+  logo: https://avatars0.githubusercontent.com/u/11483651
+  home: http://leannotes.com
+  repo: https://github.com/leannotes/leannotes
+dex: 15

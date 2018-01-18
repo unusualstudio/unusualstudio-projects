@@ -1,0 +1,9 @@
+name: penciltape
+description: A tool for drafting/versioning plain text and dictations
+stage: 1
+status: >-
+  I've got an idea of what I want to build, plus a domain and logo.
+urls:
+  logo: https://avatars1.githubusercontent.com/u/29673544
+  repo: https://github.com/penciltape
+dex: 14

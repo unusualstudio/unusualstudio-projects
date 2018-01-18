@@ -1,0 +1,8 @@
+name: Large Hashsum Collider
+description: A library for partial preimage attacks
+stage: 2
+status: >-
+  Right now this is written in proof-of-concept JS instead of something performant: that would be the first thing I'd want to change.
+urls:
+  repo: https://github.com/stuartpb/lhc
+dex: 1

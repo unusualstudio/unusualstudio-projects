@@ -1,0 +1,8 @@
+name: itself.co
+description: A reverse proxy injecting CORS headers
+stage: 1
+status: >-
+  I have this domain, but haven't put anything on it.
+urls:
+  repo: https://github.com/stuartpb/itself.co
+dex: 3

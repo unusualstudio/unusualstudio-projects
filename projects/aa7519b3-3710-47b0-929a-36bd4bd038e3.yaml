@@ -1,0 +1,9 @@
+name: belltab
+description: An app for small recurring notifications
+stage: 1
+status: >-
+  I was originally thinking of implementing this with a browser extension; this
+  might be an interesting use of Service Workers today.
+urls:
+  repo: https://github.com/belltab
+dex: 3

@@ -1,0 +1,9 @@
+name: spaspec
+description: A unifying specification for describing routes for static-page websites
+stage: 1
+status: >-
+  I've got some content, but haven't found the time to really dedicate myself to evangelizing this.
+urls:
+  logo: https://avatars1.githubusercontent.com/u/19575221
+  repo: https://github.com/spaspec
+dex: 12

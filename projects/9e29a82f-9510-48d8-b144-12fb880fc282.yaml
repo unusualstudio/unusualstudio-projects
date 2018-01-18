@@ -1,0 +1,9 @@
+name: meta.sh
+description: A curl-able repository of shell scripts
+stage: 2
+status: >-
+  I mostly just need to refine the live architecture of this.
+urls:
+  home: https://meta.sh/
+  repo: https://github.com/stuartpb/meta.sh
+dex: 7

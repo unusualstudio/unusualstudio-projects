@@ -1,0 +1,7 @@
+name: fromhats
+description: An app for building random phrase generators from a formula
+status: >-
+  There's another library I'd want to implement before I implement this.
+urls:
+  repo: https://github.com/stuartpb/fromhats
+dex: 3

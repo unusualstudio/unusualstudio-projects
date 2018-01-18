@@ -1,0 +1,9 @@
+name: forkdummy
+description: A dummy GitHub user for forking
+stage: 2
+urls:
+  home: https://github.com/forkdummy
+  info: https://github.com/stuartpb/forkdummy#whats-the-point-of-this
+  repo: https://github.com/stuartpb/forkdummy
+  todo: https://github.com/stuartpb/forkdummy#next-steps
+dex: 1

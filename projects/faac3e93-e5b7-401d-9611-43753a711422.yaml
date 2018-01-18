@@ -1,0 +1,5 @@
+name: Bookmarklet Menu
+description: A browser extension for running one-shot JavaScript functions from a dropdown
+urls:
+  info: https://github.com/h5bp/lazyweb-requests/issues/175
+dex: 2

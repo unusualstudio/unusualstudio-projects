@@ -1,0 +1,12 @@
+name: rogueport
+description: >-
+  A browser extension that makes websites embeddable and controllable via
+  postMessage API
+stage: 2
+status: >-
+  Currently I've only got a Netflix interface implemented (and I'm not sure that it still works), and the extension itself isn't published (since it may well violate lots of terms of service and stuff like that).
+urls:
+  logo: https://avatars0.githubusercontent.com/u/11236929
+  home: https://rogueport.github.io/
+  repo: https://github.com/rogueport
+dex: 3
