@@ -1,5 +1,5 @@
 name: Dashseat
-description: A virtual-reality representation of machine state
+concept: Virtual Reality Code Interpreter
 stage: 1
 status: >-
   If WebXR and WebAssembly firm up a bit, the tech basis for this will be a lot

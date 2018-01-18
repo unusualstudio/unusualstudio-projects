@@ -1,5 +1,5 @@
 name: spaspec
-description: A unifying specification for describing routes for static-page websites
+concept: Static Page App Routing Spec
 stage: 1
 status: >-
   I've got some content, but haven't found the time to really dedicate myself to evangelizing this.

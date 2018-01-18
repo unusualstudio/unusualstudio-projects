@@ -1,5 +1,5 @@
 name: belltab
-description: An app for small recurring notifications
+concept: Little Recurring Notifier
 stage: 1
 status: >-
   I was originally thinking of implementing this with a browser extension; this

@@ -1,5 +1,5 @@
 name: PlugMap
-description: 'A live, crowdsourced map of publically-accessible power outlets'
+concept: Crowdsourced Power Outlet Map
 stage: 2
 status: >-
   This is one of the first apps I ever wrote; today, I would essentially overhaul all the code other than the art assets and templates.

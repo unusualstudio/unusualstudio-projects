@@ -2,7 +2,8 @@ name: BizPostcard
 description: An app for sending form email messages to people instead of a business card
 stage: 1
 status: >-
-  I don't "network" as much as I used to, so this isn't as pressing a need as it used to be, but I still think it's a good idea.
+  I don't "network" as much as I used to, so this isn't as pressing a need as
+  it used to be, but I still think it's a good idea.
 urls:
   logo: https://avatars0.githubusercontent.com/u/12945748
   info: https://github.com/stuartpb/help-wanted#bizpostcard

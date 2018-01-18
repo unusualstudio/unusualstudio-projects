@@ -1,5 +1,5 @@
 name: itself.co
-description: A reverse proxy injecting CORS headers
+concept: CORS Proxy
 stage: 1
 status: >-
   I have this domain, but haven't put anything on it.

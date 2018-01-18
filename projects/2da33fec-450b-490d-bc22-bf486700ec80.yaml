@@ -1,5 +1,5 @@
 name: mailshadows
-description: An API portal offering email address masking as a service
+concept: Email Masking Service
 stage: 1
 status: >-
   I have a domain and logo for this, and some idea as to how I'd implement it.

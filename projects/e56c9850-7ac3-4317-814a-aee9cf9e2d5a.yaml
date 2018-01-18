@@ -1,5 +1,5 @@
 name: rejig
-description: A button to refresh development-mode browser extensions
+concept: Developer Extension Refresh Button
 stage: 1
 status: >-
   I implemented a whole animation for this before realizing the backend wasn't feasible. Today, I've got a robust enough API to implement this in Pull Tool, but the functionality of this extension is less important (and won't work as Google closes the door on Chrome apps in non-Chrome-OS contexts).

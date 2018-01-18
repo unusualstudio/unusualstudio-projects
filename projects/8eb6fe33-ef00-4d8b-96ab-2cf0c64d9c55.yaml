@@ -1,5 +1,6 @@
 name: Pull Tool
-description: 'A tool for one-shot downloading, extracting, and patching archives'
+description: >-
+  A tool for one-shot downloading, patching, and extracting archives
 stage: 2
 status: >-
   Needs UI polish and documentation. Could use some back-end refactoring.

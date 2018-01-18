@@ -1,6 +1,5 @@
 name: revokum
-description: >-
-  A service that allows you to easily revoke credentials in case of emergency
+concept: Emergency Credential Revocation
 stage: 0
 status: >-
   This is a big part of what I think a secure credential model should look

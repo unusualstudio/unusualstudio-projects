@@ -1,4 +1,4 @@
-name: Cross-Registrar Domain Dashboard
+concept: Universal Domain Dashboard
 description: A management console for domain registrations across registrars
 urls:
   info: https://github.com/h5bp/lazyweb-requests/issues/171

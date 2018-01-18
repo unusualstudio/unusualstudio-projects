@@ -1,5 +1,5 @@
 name: meta.sh
-description: A curl-able repository of shell scripts
+concept: curl-able Shell Script Repository
 stage: 2
 status: >-
   I mostly just need to refine the live architecture of this.

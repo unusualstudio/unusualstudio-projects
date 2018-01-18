@@ -1,7 +1,5 @@
 name: latertime
-description: >-
-  A site for discussing / commenting on realtime media (ie. video)
-  asynchronously
+concept: Async Realtime Commenting
 stage: 2
 status: >-
   The version online right now only supports local video files and has no credentialing system.

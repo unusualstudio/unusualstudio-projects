@@ -1,5 +1,5 @@
 name: accouch
-description: A user account management system / library for Node apps
+concept: Drop-in User Account Management Suite
 stage: 1
 status: >-
   I need to spec out the prospective flows for this and run them by someone who

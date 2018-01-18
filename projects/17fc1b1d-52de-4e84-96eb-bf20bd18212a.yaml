@@ -1,5 +1,5 @@
 name: Blotpass
-description: Using intrinsic hashblots as inspiration for passwords
+concept: Hashblot Password Manager
 stage: 2
 status: >-
   Right now, I do this by going to hashblot.com and entering the string I'd use

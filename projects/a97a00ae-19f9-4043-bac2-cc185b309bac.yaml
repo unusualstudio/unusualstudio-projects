@@ -1,7 +1,5 @@
 name: KeyboardLeopard
-description: >-
-  A browser extension for creating custom word filters to apply across all
-  sites as you browse the web
+concept: Custom Word Filter Extension
 stage: 1
 status: >-
   I think I have an implementation that needs a little modernization,

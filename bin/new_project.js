@@ -5,6 +5,7 @@ const fs = require('mz/fs');
 
 const prompts = [
   {name: 'name'},
+  {name: 'concept'},
   {name: 'description'},
   {name: 'stage', type: 'list', choices: [
     {name: '0 (Seed)', value: 0},
@@ -38,6 +39,9 @@ function projectYaml(project) {
 
   if (project.name)
     lineBuffer.push(`name: ${project.name}`);
+
+  if (project.concept)
+    lineBuffer.push(`name: ${project.concept}`);
 
   if (project.description)
     lineBuffer.push(`description: ${yaml.dump(project.description).trim()}`);

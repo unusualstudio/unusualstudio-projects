@@ -12,15 +12,27 @@ Quantifying the "lifetime" of a project entails some [philosophical questions](h
 
 ### name
 
-The current working title for this project.
+A distinct name for this project (eg. "GatherWing").
+
+If the idea doesn't yet have a unique name, it should omit this and use `concept` instead.
 
 ### formerly
 
 A list of any names this project may have gone by in the past.
 
+### concept
+
+A descriptive title/subtitle for this project idea (eg. "Group Dating Site").
+
+If the project is not easily described with a short high-concept description, it should have a `name`, and a `description` (or at least a `urls.info` location).
+
 ### description
 
-A short logline / pitch for the project, phrased as how it would be described following the words "(Name) is..." (eg. "A browser extension for stashing away groups of unused tabs" for Tabalanche).
+A short logline / pitch for the project, phrased as how it would be described following the words "(Name) is..." (eg. "A dating site that sets up outings of three men and three women (like an episode of Friends)").
+
+Projects succinctly described by a `concept` should skip `description` (as defining one would just be redundant).
+
+Projects may be described in more detail with a description linked as `urls.info` (see below).
 
 ### stage
 

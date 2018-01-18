@@ -1,5 +1,5 @@
 name: NilPass
-description: A browser extension that eliminates passwords altogether
+concept: Post-Password-Manager Extension
 stage: 2
 status: >-
   Needs UI / flow polish.

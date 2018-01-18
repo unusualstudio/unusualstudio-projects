@@ -1,5 +1,5 @@
 name: acebins
-description: A pastebin crossed with a processing pipeline editor
+concept: Processing Pipeline Pastebin
 stage: 1
 status: >-
   I know what I want with this; the main issue I remember having is that Ace

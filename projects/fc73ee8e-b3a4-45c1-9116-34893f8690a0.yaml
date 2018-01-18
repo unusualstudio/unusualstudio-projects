@@ -1,5 +1,5 @@
 name: Clubs
-description: An event aggregator / discovery engine using tagged interests
+concept: Interest-Based Event Aggregator
 status: >-
   My original design for this was Facebook-centric; I still feel that its main
   problem is not well-solved, but being less immersed in Facebook today has

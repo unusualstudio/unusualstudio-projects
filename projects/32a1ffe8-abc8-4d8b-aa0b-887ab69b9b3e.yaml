@@ -1,5 +1,5 @@
 name: Tabalanche
-description: A browser extension for stashing away groups of unused tabs
+concept: Tab-Stashing Browser Extension
 stage: 2
 status: >-
   Still need to implement sync. Wouldn't mind simplifying the logo.

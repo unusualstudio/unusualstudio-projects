@@ -1,8 +1,11 @@
 name: Open Profilogical Web Survey
-description: A project to map out the user account systems of every site on the web
+description: >-
+  A project to map out the user account systems of every site on the web
 stage: 2
 status: >-
-  There are a few refactors/migrations in the pipeline I want to implement, as well as a proper build toolchain (I need to rethink the current build system path structure).
+  There are a few refactors/migrations in the pipeline I want to implement, as
+  well as a proper build toolchain (I need to rethink the current build system
+  path structure).
 urls:
   logo: https://avatars2.githubusercontent.com/u/25519148
   home: https://www.opws.org

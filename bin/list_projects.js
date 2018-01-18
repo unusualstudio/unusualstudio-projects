@@ -9,12 +9,16 @@ let live = false;
 
 const collator = new Intl.Collator('en');
 
+function cfmn(f, compare) {
+  return (m, n) => compare(f(m), f(n));
+}
+
 function writeList() {
   const entries = Array.from(projectStore.entries())
-    .sort((m, n) => collator.compare(m[1].name, n[1].name));
+    .sort(cfmn(x => x[1].name || x[1].concept, collator.compare));
   if (live) clear();
-  for (let [id, {name}] of entries) {
-    console.log(`${id} ${name}`);
+  for (let [id, {name, concept}] of entries) {
+    console.log(`${id} ${name || concept}`);
   }
   console.log(`total ${projectStore.size}`);
 }
