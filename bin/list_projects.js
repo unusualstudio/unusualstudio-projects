@@ -1,3 +1,4 @@
+const argv = require('minimist')(process.argv.slice(2));
 const yaml = require('js-yaml');
 const chokidar = require('chokidar');
 const clear = require('clear');
@@ -14,9 +15,14 @@ function cfmn(f, compare) {
   return (m, n) => compare(f(m), f(n));
 }
 
+const descending = (m, n) => m > n ? -1 : m < n ? 1 : 0;
+
+const collation = cfmn(x => x[1].name || x[1].concept, collator.compare);
+const initiative = cfmn(x => x[1].dex, descending);
+
 function writeList() {
   const entries = Array.from(projectStore.entries())
-    .sort(cfmn(x => x[1].name || x[1].concept, collator.compare));
+    .sort(argv.sort == 'dex' ? initiative : collation);
   if (live) clear();
   for (let [id, {name, concept}] of entries) {
     console.log(`${id} ${name ?
