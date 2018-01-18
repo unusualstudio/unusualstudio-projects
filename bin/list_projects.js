@@ -16,6 +16,7 @@ function writeList() {
   for (let [id, {name}] of entries) {
     console.log(`${id} ${name}`);
   }
+  console.log(`total ${projectStore.size}`);
 }
 
 function updateProjectFromFile(filename) {
