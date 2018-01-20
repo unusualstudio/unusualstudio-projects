@@ -37,29 +37,29 @@ function indented(prefix, str) {
 function projectYaml(project) {
   const lineBuffer = [];
 
-  if (project.name)
+  if (project.name !== undefined)
     lineBuffer.push(`name: ${project.name}`);
 
-  if (project.concept)
+  if (project.concept !== undefined)
     lineBuffer.push(`concept: ${project.concept}`);
 
-  if (project.description)
+  if (project.description !== undefined)
     lineBuffer.push(`description: ${yaml.dump(project.description).trim()}`);
 
-  if (project.stage)
+  if (project.stage !== undefined)
     lineBuffer.push(`stage: ${project.stage}`);
 
-  if (project.status)
+  if (project.status !== undefined)
     lineBuffer.push(`status: >-\n${indented('  ', project.status)}`);
 
-  if (project.urls) {
+  if (project.urls !== undefined) {
     lineBuffer.push('urls:');
     for (let key of Object.keys(project.urls)) {
       lineBuffer.push(`  ${key}: ${project.urls[key]}`);
     }
   }
 
-  if (project.dex)
+  if (project.dex !== undefined)
     lineBuffer.push(`dex: ${project.dex}`);
 
   return lineBuffer.join('\n') + '\n';
