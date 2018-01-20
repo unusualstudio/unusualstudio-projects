@@ -1,5 +1,6 @@
 name: Clubs
 concept: Interest-Based Event Aggregator
+stage: 0
 status: >-
   My original design for this was Facebook-centric; I still feel that its main
   problem is not well-solved, but being less immersed in Facebook today has

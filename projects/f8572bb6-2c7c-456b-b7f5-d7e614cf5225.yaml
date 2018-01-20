@@ -2,4 +2,5 @@ concept: Universal Bug Tracker
 description: >-
   A site where you can paste your error message and it tracks google results and
   people can post comments and links to solutions
+stage: 0
 dex: 2

@@ -2,6 +2,7 @@ concept: Keyboard Shortcut Helper
 description: >-
   A common format for keyboard shortcut specifications, with converters and UI
   tools that provide a UI based on that format
+stage: 0
 status: >-
   This would be a fun project to demonstrate what's involved in structuring a
   data model / schema based on prior art in the field.

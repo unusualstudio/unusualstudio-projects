@@ -1,5 +1,6 @@
 name: fromhats
 concept: Formulaic Sentence Generator
+stage: 0
 status: >-
   There's another library I'd want to implement before I implement this.
 urls:

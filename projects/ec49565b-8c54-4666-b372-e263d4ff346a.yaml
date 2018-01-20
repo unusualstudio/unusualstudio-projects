@@ -3,4 +3,5 @@ concept: Cross-Distro Package Tool
 description: >-
   A tool using the package data from pkgs.org to make setup/migration easy
   across Linux distros
+stage: 0
 dex: 5

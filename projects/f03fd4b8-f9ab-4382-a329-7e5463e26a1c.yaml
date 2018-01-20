@@ -2,5 +2,7 @@ name: PIZZA HAUS
 description: >-
   A site where competitors go head-to-head and the loser(s) buy the winner(s)
   pizza
+stage: 0
 urls:
   info: https://www.reddit.com/r/CrazyIdeas/comments/1r8g06/a_subreddit_where_you_play_others_in_games_and/
+dex: 0
