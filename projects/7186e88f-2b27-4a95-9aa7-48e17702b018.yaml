@@ -1,0 +1,9 @@
+name: WICG Dashboard
+stage: 0
+status: >-
+  I haven't been involved in WICG for a while: this is something I'd start
+  working on and maintaining if I got back into it.
+urls:
+  info: https://github.com/h5bp/lazyweb-requests/issues/185
+  repo: https://github.com/stuartpb/wicg-tracker/wiki
+dex: 1

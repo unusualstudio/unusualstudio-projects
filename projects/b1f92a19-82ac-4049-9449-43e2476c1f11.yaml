@@ -1,0 +1,6 @@
+name: millwork.jscad
+description: A library for rounded shapes and contours in OpenJSCAD
+stage: 1
+urls:
+  repo: https://github.com/stuartpb/millwork.jscad
+dex: 9

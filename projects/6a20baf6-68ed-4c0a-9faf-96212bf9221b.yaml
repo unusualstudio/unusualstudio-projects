@@ -1,0 +1,9 @@
+name: chachacat
+concept: Chained Hulling Algorithm for Convex Hull Area of Canvas Alpha Threshold
+stage: 2
+status: >-
+  There are some improvements I'd like to make to this algorithm, like developing a histogram of perimiters at different alpha levels instead of just 1 binary hull around a threshold alpha value at a time.
+urls:
+  logo: https://cloud.githubusercontent.com/assets/572196/8876272/812cac00-31d3-11e5-900f-8322b41f294e.png
+  repo: https://cloud.githubusercontent.com/assets/572196/8876272/812cac00-31d3-11e5-900f-8322b41f294e.png
+dex: 6

@@ -1,0 +1,8 @@
+name: CouchDB in a Hurry
+description: A primer to CouchDB that confronts its ugly truths
+stage: 2
+status: >-
+  This could still use some work and elaboration on how to build practical projects with CouchDB.
+urls:
+  repo: https://github.com/stuartpb/couchdb-in-a-hurry
+dex: 2

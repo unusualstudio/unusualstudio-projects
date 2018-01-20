@@ -1,0 +1,9 @@
+name: praisefiles
+description: A protocol for writing praise for other users on GitHub
+stage: 1
+status: >-
+  This has been one of the projects I've most wanted to do, but put off doing, for over a year.
+urls:
+  logo: https://avatars2.githubusercontent.com/u/22605550
+  repo: https://github.com/praisefiles
+dex: 28

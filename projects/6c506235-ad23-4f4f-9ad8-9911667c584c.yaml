@@ -1,0 +1,9 @@
+name: wjet
+concept: Node-based Recursive Site Downloader
+stage: 1
+status: >-
+  I forgot that I wanted to make this. I've got a pretty nice interface planned out for it.
+urls:
+  repo: https://github.com/stuartpb/wjet
+  todo: https://github.com/stuartpb/wjet/issues/2
+dex: 11

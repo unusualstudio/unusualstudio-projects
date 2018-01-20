@@ -1,0 +1,9 @@
+name: lash
+concept: Lua-Based Shell Scripting
+stage: 1
+status: >-
+  This is another hypothetical language I've designed that I will most likely
+  never be pissed off enough to implement.
+urls:
+  repo: https://github.com/stuartpb/lash
+dex: 3

@@ -1,0 +1,13 @@
+name: Hole Your Own ClickVenture
+description: >-
+  A visualization tool for tracking the decision graph in ClickHole
+  ClickVentures
+stage: 2
+status: >-
+  I'd still like to figure out how to position the nodes with as few path
+  overlaps as possible.
+urls:
+  logo: https://github.com/stuartpb/hole-your-own-clickventure/blob/master/ribbon.png?raw=true
+  info: https://github.com/stuartpb/hole-your-own-clickventure/wiki
+  repo: https://github.com/stuartpb/hole-your-own-clickventure
+dex: 9

@@ -1,0 +1,9 @@
+name: JacksonVive
+description: Adapters for the HTC Vive to the Jackson Safety 370 Welding Headgear
+stage: 2
+status: >-
+  There's a working bracket up there now: I'd like to refine the hinge clasp a
+  bit, and there are more models I'd like to add.
+urls:
+  repo: https://github.com/stuartpb/JacksonVive
+dex: 7

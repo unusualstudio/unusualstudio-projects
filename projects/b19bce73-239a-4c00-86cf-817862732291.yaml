@@ -1,0 +1,9 @@
+name: Crane
+concept: S-Expression Macro-Based Binary Compiler
+stage: 1
+status: >-
+  I don't honestly ever expect to be qualified enough to tackle this
+  realistically, but it's fun to consider.
+urls:
+  repo: https://github.com/stuartpb/crane
+dex: 2
