@@ -41,7 +41,7 @@ function projectYaml(project) {
     lineBuffer.push(`name: ${project.name}`);
 
   if (project.concept)
-    lineBuffer.push(`name: ${project.concept}`);
+    lineBuffer.push(`concept: ${project.concept}`);
 
   if (project.description)
     lineBuffer.push(`description: ${yaml.dump(project.description).trim()}`);
