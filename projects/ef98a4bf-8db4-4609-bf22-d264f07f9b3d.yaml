@@ -1,7 +1,7 @@
 name: BizPostcard
 description: An app for sending form email messages to people instead of a business card
 stage: 1
-status: >-
+remarks: >-
   I don't "network" as much as I used to, so this isn't as pressing a need as
   it used to be, but I still think it's a good idea.
 urls:

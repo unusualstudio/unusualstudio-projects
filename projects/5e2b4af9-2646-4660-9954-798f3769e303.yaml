@@ -1,7 +1,7 @@
 name: tagstrap
 concept: Modern HTML Boilerplate Generator
 stage: 1
-status: >-
+remarks: >-
   I just realized that what I want from this can largely be accomplished with a
   single fixed body of text.
 urls:

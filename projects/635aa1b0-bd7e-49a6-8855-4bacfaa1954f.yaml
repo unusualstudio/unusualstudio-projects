@@ -1,7 +1,7 @@
 name: NilPass
 concept: Post-Password-Manager Extension
 stage: 2
-status: >-
+remarks: >-
   Needs UI / flow polish.
 urls:
   logo: https://avatars2.githubusercontent.com/u/12947156

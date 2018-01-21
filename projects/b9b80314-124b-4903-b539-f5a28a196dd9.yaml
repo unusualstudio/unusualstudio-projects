@@ -1,7 +1,7 @@
 name: fromhats
 concept: Formulaic Sentence Generator
 stage: 0
-status: >-
+remarks: >-
   There's another library I'd want to implement before I implement this.
 urls:
   repo: https://github.com/stuartpb/fromhats

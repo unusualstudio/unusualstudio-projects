@@ -1,7 +1,7 @@
 name: Dashseat
 concept: Virtual Reality Code Interpreter
 stage: 1
-status: >-
+remarks: >-
   If WebXR and WebAssembly firm up a bit, the tech basis for this will be a lot
   more workable.
 urls:

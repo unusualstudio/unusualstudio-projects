@@ -1,7 +1,7 @@
 name: achewatr
 concept: Achewood Browser with Blogs
 stage: 2
-status: >-
+remarks: >-
   I mostly just need to redo the backend; now that the comic has effectively
   ended, I should really just make it pull from static data files or something
   like that.

@@ -1,7 +1,7 @@
 concept: Grocery List Manager
 name: restockr
 stage: 0
-status: >-
+remarks: >-
   This is based on the way I've been handling my grocery list in Trello for
   years.
 dex: 6

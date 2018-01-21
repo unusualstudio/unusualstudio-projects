@@ -1,7 +1,7 @@
 name: Gullibot
 description: A story game about a robot that believes everything it hears
 stage: 1
-status: >-
+remarks: >-
   I have the high concept, but am not sure how to make the mechanics
   cooperative and fun.
 urls:

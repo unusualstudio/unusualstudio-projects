@@ -13,7 +13,7 @@ const prompts = [
     {name: '2 (Viable)', value: 2},
     {name: '3 (Polished)', value: 3}
   ]},
-  {name: 'status'},
+  {name: 'remarks'},
   {name: 'urls.logo'},
   {name: 'urls.home'},
   {name: 'urls.info'},
@@ -49,8 +49,8 @@ function projectYaml(project) {
   if (project.stage !== undefined)
     lineBuffer.push(`stage: ${project.stage}`);
 
-  if (project.status !== undefined)
-    lineBuffer.push(`status: >-\n${indented('  ', project.status)}`);
+  if (project.remarks !== undefined)
+    lineBuffer.push(`remarks: >-\n${indented('  ', project.remarks)}`);
 
   if (project.urls !== undefined) {
     lineBuffer.push('urls:');

@@ -1,7 +1,7 @@
 name: PlugMap
 concept: Crowdsourced Power Outlet Map
 stage: 2
-status: >-
+remarks: >-
   This is one of the first apps I ever wrote; today, I would essentially overhaul all the code other than the art assets and templates.
 urls:
   logo: https://avatars1.githubusercontent.com/u/9361116

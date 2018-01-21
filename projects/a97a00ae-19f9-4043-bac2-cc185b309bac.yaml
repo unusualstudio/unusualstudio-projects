@@ -1,7 +1,7 @@
 name: KeyboardLeopard
 concept: Custom Word Filter Extension
 stage: 1
-status: >-
+remarks: >-
   I think I have an implementation that needs a little modernization,
   packaging, and UX polish.
 urls:

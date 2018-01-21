@@ -1,6 +1,6 @@
 concept: DeviceMotion/DeviceOrientation Polyfill
 stage: 0
-status: >-
+remarks: >-
   This would most likely be useful if and when I revisit StepDub.
 urls:
   info: https://github.com/h5bp/lazyweb-requests/issues/177

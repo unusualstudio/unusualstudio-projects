@@ -1,7 +1,7 @@
 name: vixiv
 description: Stuff for the Nintendo DSiWare game X-Scape
 stage: 0
-status: >-
+remarks: >-
   I originally started working on this before I even knew web development.
 
   It's been so long since this project was relevant to me, I'm not even sure

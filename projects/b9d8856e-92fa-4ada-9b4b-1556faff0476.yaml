@@ -1,7 +1,7 @@
 name: latertime
 concept: Async Realtime Commenting
 stage: 2
-status: >-
+remarks: >-
   The version online right now only supports local video files and has no credentialing system.
 urls:
   logo: https://github.com/latertime/laterti.me/raw/master/client/latertime.png

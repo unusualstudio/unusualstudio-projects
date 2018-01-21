@@ -1,7 +1,7 @@
 name: dealerwheel
 concept: Pass-and-Play Caption Contest
 stage: 1
-status: >-
+remarks: >-
   I have a *really* old codebase for this; it might even be viable, I don't remember.
 urls:
   repo: https://github.com/stuartpb/dealerwheel

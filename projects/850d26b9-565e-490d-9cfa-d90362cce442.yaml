@@ -1,7 +1,7 @@
 name: Lean Notes
 description: Some notes on how to build stuff on the Web
 stage: 2
-status: >-
+remarks: >-
   Right now, I have bunch of notes in the form of cards on Trello; I'm moving
   to migrate them to Markdown files on GitHub.
 urls:

@@ -50,7 +50,7 @@ These correspond to the four leftmost lists in the Trello board where I had prev
 
 Understanding [how I generally approach projects](https://github.com/stuartpb/how-i-roll/blob/master/starting/apps.md) may be helpful in understanding the progression from stage 0 to stage 1.
 
-### status
+### remarks
 
 A brief Markdown description of what's been done and what would be next.
 

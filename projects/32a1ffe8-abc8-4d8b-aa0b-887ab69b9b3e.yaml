@@ -1,7 +1,7 @@
 name: Tabalanche
 concept: Tab-Stashing Browser Extension
 stage: 2
-status: >-
+remarks: >-
   Still need to implement sync. Wouldn't mind simplifying the logo.
 urls:
   logo: https://avatars0.githubusercontent.com/u/12942492

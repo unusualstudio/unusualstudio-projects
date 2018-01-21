@@ -2,7 +2,7 @@ name: one-with-everything
 description: >-
   A repository demonstrating the use of every built-in feature of GitHub
 stage: 0
-status: >-
+remarks: >-
   I created the repo as soon as I had the initial idea, but I've yet to
   populate it. This could be a fun one to do live.
 urls:

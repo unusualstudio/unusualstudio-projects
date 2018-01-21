@@ -1,7 +1,7 @@
 name: meta.sh
 concept: curl-able Shell Script Repository
 stage: 2
-status: >-
+remarks: >-
   I mostly just need to refine the live architecture of this.
 urls:
   home: https://meta.sh/

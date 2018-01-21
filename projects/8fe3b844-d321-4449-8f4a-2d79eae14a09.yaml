@@ -2,7 +2,7 @@ name: Open Profilogical Web Survey
 description: >-
   A project to map out the user account systems of every site on the web
 stage: 2
-status: >-
+remarks: >-
   There are a few refactors/migrations in the pipeline I want to implement, as
   well as a proper build toolchain (I need to rethink the current build system
   path structure).

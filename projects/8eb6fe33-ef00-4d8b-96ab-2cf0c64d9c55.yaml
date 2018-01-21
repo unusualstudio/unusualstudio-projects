@@ -2,7 +2,7 @@ name: Pull Tool
 description: >-
   A tool for one-shot downloading, patching, and extracting archives
 stage: 2
-status: >-
+remarks: >-
   Needs UI polish and documentation. Could use some back-end refactoring.
 urls:
   logo: https://avatars0.githubusercontent.com/u/15097224

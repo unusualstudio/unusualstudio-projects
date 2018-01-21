@@ -1,7 +1,7 @@
 name: OKCommand
 concept: Q&A with Command Lines
 stage: 1
-status: >-
+remarks: >-
   Has domain, logo, and some idea what the site should look like.
 urls:
   logo: https://avatars0.githubusercontent.com/u/17325372

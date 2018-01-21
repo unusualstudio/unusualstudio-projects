@@ -1,7 +1,7 @@
 name: Chatphrase
 description: A video chat site using phrases as room identifiers
 stage: 2
-status: >-
+remarks: >-
   I'm not sure if this is currently working; my existing implementation would
   need a significant overhaul.
 

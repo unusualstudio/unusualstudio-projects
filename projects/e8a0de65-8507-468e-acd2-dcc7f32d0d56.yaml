@@ -1,7 +1,7 @@
 name: Rainpower
 description: 'A Pebble watchface displaying time, date, weather, and power levels'
 stage: 2
-status: >-
+remarks: >-
   I've got a few bugs I need to squash next time I'm in the neighborhood of the Pebble development ecosystem.
 urls:
   repo: https://github.com/stuartpb/rainpower-watchface

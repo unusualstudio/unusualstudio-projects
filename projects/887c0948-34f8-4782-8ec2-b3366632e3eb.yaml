@@ -1,7 +1,7 @@
 name: Parked Project
 concept: Domain Parking for Projects
 stage: 1
-status: >-
+remarks: >-
   Needs a more stable live setup; more work on Plushu would help.
 urls:
   logo: https://avatars1.githubusercontent.com/u/12555849

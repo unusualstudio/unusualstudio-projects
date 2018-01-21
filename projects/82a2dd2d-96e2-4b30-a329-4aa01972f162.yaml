@@ -4,7 +4,7 @@ description: >-
   the Hilbert, Moore, and Gosper curves, inspired by
   http://80386.nl/projects/flowsnake/
 stage: 0
-status: >-
+remarks: >-
   I apparently had a repo for this at one point, but I seem to have never
   comitted my work.
 dex: 5

@@ -1,7 +1,7 @@
 name: mailshadows
 concept: Email Masking Service
 stage: 1
-status: >-
+remarks: >-
   I have a domain and logo for this, and some idea as to how I'd implement it.
 urls:
   logo: https://avatars3.githubusercontent.com/u/6625799

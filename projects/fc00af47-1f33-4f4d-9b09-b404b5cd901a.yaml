@@ -1,7 +1,7 @@
 name: hubstrap
 concept: GitHub Pages Builder
 stage: 1
-status: >-
+remarks: >-
   I have the domain and some initial design thoughts for this.
 urls:
   repo: https://github.com/hubstrap

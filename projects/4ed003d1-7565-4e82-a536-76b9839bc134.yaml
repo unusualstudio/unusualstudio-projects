@@ -1,7 +1,7 @@
 name: License in Three Lines (LITL)
 concept: Very Small Project License
 stage: 2
-status: >-
+remarks: >-
   This could use a little more explanation as to its purpose.
 urls:
   logo: https://litl-license.org/logo.svg

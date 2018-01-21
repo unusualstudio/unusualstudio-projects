@@ -3,7 +3,7 @@ description: >-
   Tools around the idea that you can express binary data as English prose by
   using letters as bits based on which half of the alphabet they're in
 stage: 2
-status: >-
+remarks: >-
   There's lots of stuff I want to do with this, which may get their own
   projects: right now, this project is a sort of signifier for "anything that
   deals with that awesome Alphabi stuff".

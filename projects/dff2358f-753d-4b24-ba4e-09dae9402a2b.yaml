@@ -1,7 +1,7 @@
 name: Plushu
 description: A pluggable shell user and Heroku-compatible ecosytem (Plusku)
 stage: 2
-status: >-
+remarks: >-
   I've got access to cluster computing generously provided by the Cloud Native
   Computing Foundation: my next steps are using that to build a robust sandbox
   system.

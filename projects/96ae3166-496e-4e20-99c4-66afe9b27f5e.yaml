@@ -1,7 +1,7 @@
 name: bigtex
 concept: Big Text Input
 stage: 2
-status: >-
+remarks: >-
   I think I need a better domain name for this.
 urls:
   repo: https://github.com/stuartpb/bigtex

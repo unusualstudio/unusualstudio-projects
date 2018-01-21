@@ -1,7 +1,7 @@
 name: itself.co
 concept: CORS Proxy
 stage: 1
-status: >-
+remarks: >-
   I have this domain, but haven't put anything on it.
 urls:
   repo: https://github.com/stuartpb/itself.co

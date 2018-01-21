@@ -1,7 +1,7 @@
 name: abcthoven
 concept: Music Transcription Tool
 stage: 1
-status: >-
+remarks: >-
   I know what I want to design and how I want to implement it: I had about an hour's worth of work put toward this, but I accidentally deleted it.
 urls:
   repo: https://github.com/penciltape/abcthoven

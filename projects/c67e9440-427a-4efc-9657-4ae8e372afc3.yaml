@@ -3,7 +3,7 @@ description: >-
   A Reddit bot that sounds a QI-style klaxon in the event an obvious joke is
   made
 stage: 1
-status: >-
+remarks: >-
   I think this is all set up, but not reliably.
 urls:
   repo: https://github.com/stuartpb/QIKlaxonBot

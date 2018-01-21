@@ -3,7 +3,7 @@ description: >-
   A visualization tool for tracking the decision graph in ClickHole
   ClickVentures
 stage: 2
-status: >-
+remarks: >-
   I'd still like to figure out how to position the nodes with as few path
   overlaps as possible.
 urls:

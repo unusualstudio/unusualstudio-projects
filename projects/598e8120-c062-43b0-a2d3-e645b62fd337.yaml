@@ -1,7 +1,7 @@
 name: acebins
 concept: Processing Pipeline Pastebin
 stage: 1
-status: >-
+remarks: >-
   I know what I want with this; the main issue I remember having is that Ace
   can't handle being transformed via CSS.
 urls:

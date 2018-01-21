@@ -1,7 +1,7 @@
 name: timewaiter
 description: A UI element for scrolling into archives in infinite-scrolling contexts
 stage: 1
-status: >-
+remarks: >-
   I want to implement this for use in both DingRoll and Tabalanche.
 urls:
   repo: https://github.com/stuartpb/timewaiter

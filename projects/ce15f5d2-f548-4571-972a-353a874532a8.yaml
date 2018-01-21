@@ -3,7 +3,7 @@ description: >-
   A collection of alphanumeric words with special meaning in different technical
   contexts
 stage: 1
-status: >-
+remarks: >-
   I've still yet to do a first commit on this, but I've put a fair amount of work toward it.
 urls:
   info: https://github.com/h5bp/lazyweb-requests/issues/168
