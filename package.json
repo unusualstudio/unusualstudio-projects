@@ -19,6 +19,7 @@
     "chalk": "^2.3.0",
     "chokidar": "^2.0.0",
     "clear": "0.0.1",
+    "es7-shim": "^6.0.0",
     "inquirer": "^5.0.0",
     "js-yaml": "^3.10.0",
     "minimist": "^1.2.0",

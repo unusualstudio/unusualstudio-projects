@@ -5,8 +5,14 @@ const clear = require('clear');
 const chalk = require('chalk');
 const fs = require('mz/fs');
 const path = require('path');
+require('es7-shim').shim();
 
 const watchMode = argv.watch || argv.w;
+
+if (argv.rank) {
+  argv.dex = true;
+  argv.sort = 'dex';
+}
 
 const projectStore = new Map();
 let live = false;
@@ -25,9 +31,15 @@ const initiative = cfmn(x => x[1].dex, descending);
 function writeList() {
   const entries = Array.from(projectStore.entries())
     .sort(argv.sort == 'dex' ? initiative : collation);
+
+  const maxDex = entries.reduce(
+    (a, c) => Math.max(a, c[1].dex || 0), entries[0][1].dex || 0);
+  const maxDexDigits = maxDex.toFixed(0).length;
+
   if (live) clear();
-  for (let [id, {name, concept}] of entries) {
-    console.log(`${id} ${name ?
+  for (let [id, {name, dex, concept}] of entries) {
+    console.log(`${id} ${argv.dex ?
+      (dex.toFixed(0).padStart(maxDexDigits) + ' ') : ''}${name ?
       chalk.yellowBright(name) : chalk.greenBright(concept)}`);
   }
   console.log(`total ${projectStore.size}`);
