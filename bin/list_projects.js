@@ -38,7 +38,7 @@ function writeList() {
 
   if (live) clear();
   for (let [id, {name, dex, concept}] of entries) {
-    console.log(`${id} ${argv.dex ?
+    console.log(`${argv.paths ? `/projects/${id}.yaml` : id} ${argv.dex ?
       (dex.toFixed(0).padStart(maxDexDigits) + ' ') : ''}${name ?
       chalk.yellowBright(name) : chalk.greenBright(concept)}`);
   }
