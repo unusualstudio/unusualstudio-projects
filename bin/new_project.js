@@ -30,39 +30,8 @@ function deleteEmptyStringProperties(obj) {
   }
 }
 
-function indented(prefix, str) {
-  return prefix + str.replace(/\n/g, '\n' + prefix);
-}
-
 function projectYaml(project) {
-  const lineBuffer = [];
-
-  if (project.name !== undefined)
-    lineBuffer.push(`name: ${project.name}`);
-
-  if (project.concept !== undefined)
-    lineBuffer.push(`concept: ${project.concept}`);
-
-  if (project.description !== undefined)
-    lineBuffer.push(`description: ${yaml.dump(project.description).trim()}`);
-
-  if (project.stage !== undefined)
-    lineBuffer.push(`stage: ${project.stage}`);
-
-  if (project.remarks !== undefined)
-    lineBuffer.push(`remarks: >-\n${indented('  ', project.remarks)}`);
-
-  if (project.urls !== undefined) {
-    lineBuffer.push('urls:');
-    for (let key of Object.keys(project.urls)) {
-      lineBuffer.push(`  ${key}: ${project.urls[key]}`);
-    }
-  }
-
-  if (project.dex !== undefined)
-    lineBuffer.push(`dex: ${project.dex}`);
-
-  return lineBuffer.join('\n') + '\n';
+  return yaml.dump(project, {lineWidth: 78});
 }
 
 inquirer.prompt(prompts).then(project => {
