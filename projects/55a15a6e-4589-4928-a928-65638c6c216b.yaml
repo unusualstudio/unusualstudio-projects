@@ -5,4 +5,4 @@ remarks: >-
   This could still use some work and elaboration on how to build practical projects with CouchDB.
 urls:
   repo: https://github.com/stuartpb/couchdb-in-a-hurry
-dex: 2
+dex: 3
