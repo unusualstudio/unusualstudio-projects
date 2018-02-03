@@ -1,12 +1,8 @@
-concept: Harriet Tubman $20 Stamp
-description: >-
-  A remake of the article's final design since I can't find their source files
+name: Project Araminta
+concept: Make Your Own Harriet Tubman $20
 stage: 2
 remarks: >-
-  At this point, the main thing left to do is refine designs for printable stamp handles and molds.
-
-  I still wouldn't mind having a more clever name for this project.
+  At this point, the main thing left to do is refine designs for printable stamp handles, molds, and potentially stencils.
 urls:
-  info: https://blog.adafruit.com/2017/10/12/turn-your-20s-into-tubmans-with-this-diy-3-d-printed-stamp-wired-adafruit-ustreasury-stevenmnuchin1/
-  repo: https://github.com/stuartpb/tubman20-stamp
+  repo: https://github.com/stuartpb/project-araminta
 dex: 50
