@@ -1,0 +1,9 @@
+name: Nuclear Tic-Tac-Toe
+description: A score-based three-dimensional variant of Tic-Tac-Toe
+stage: 1
+remarks: >-
+  This has the underlying game logic functions implemented (for analysis), but
+  no UI.
+urls:
+  repo: https://github.com/stuartpb/nuketactoe
+dex: 12

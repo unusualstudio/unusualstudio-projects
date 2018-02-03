@@ -1,0 +1,12 @@
+name: dockitall
+concept: Parametric Charging Dock
+stage: 2
+remarks: >-
+  The OpenSCAD for this is currently subtractive; it ought to be rewritten to
+  be additive. (Also, I should do a writeup in the README on how I set up the
+  one for my phone that's on my desk right now.)
+
+  Should also publish it on Thingiverse / Youmagine.
+urls:
+  repo: https://github.com/stuartpb/dockitall
+dex: 16
