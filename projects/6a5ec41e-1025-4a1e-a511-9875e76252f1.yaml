@@ -1,0 +1,11 @@
+name: tracercore
+concept: Raster-to-Vector Tracing Site
+stage: 2
+remarks: >-
+  I wouldn't mind polishing the UI for this a bit.
+
+  Also, I have a logo/favicon (and easter egg) in mind that I want to add.
+urls:
+  home: https://tracercore.com/
+  repo: https://github.com/stuartpb/tracercore
+dex: 25

@@ -1,10 +1,12 @@
 concept: Harriet Tubman $20 Stamp
 description: >-
   A remake of the article's final design since I can't find their source files
-stage: 0
+stage: 2
 remarks: >-
-  I've done some work toward this - I'm mostly just trying to come up with a
-  clever name.
+  At this point, the main thing left to do is refine designs for printable stamp handles and molds.
+
+  I still wouldn't mind having a more clever name for this project.
 urls:
   info: https://blog.adafruit.com/2017/10/12/turn-your-20s-into-tubmans-with-this-diy-3-d-printed-stamp-wired-adafruit-ustreasury-stevenmnuchin1/
-dex: 20
+  repo: https://github.com/stuartpb/tubman20-stamp
+dex: 50
