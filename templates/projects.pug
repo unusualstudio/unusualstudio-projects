@@ -1,0 +1,41 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    link(href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700,700i,900", rel="stylesheet")
+    link(href="/stylesheet.css", rel="stylesheet")
+    link(href="/icon-256px.png", rel="icon")
+  body
+    - const stagenames = ['Seed Idea', 'Project in Development', 'Viable Project', 'Polished Project'];
+    .projects: each project in projects
+      .project(class='stage-'+project.stage)
+        .classification
+          .id= project.id
+          .stage-label= stagenames[project.stage || 0] || 'Stage ' + project.stage
+        .details
+          if project.urls && project.urls.logo
+            img.logo(src=project.urls.logo)
+          .summary
+            if project.concept
+              .concept(class=project.name ? '' : 'subname')= project.concept
+            if project.name
+              .name= project.name
+            if project.description
+              .description(class=project.name || project.concept ? '' : 'subname')
+                != project.description
+                if project.urls && project.urls.info
+                  a.moreinfo.badge(href=project.urls.info) More Info
+            if project.urls
+              .urls
+                if project.urls.home
+                  a.home(href=project.urls.home)= project.urls.home
+                if project.urls.repo
+                  a.repo.badge(href=project.urls.repo) Repo
+                if project.urls.news
+                  a.news.badge(href=project.urls.news) News
+                if project.urls.todo
+                  a.todo.badge(href=project.urls.todo) Todo
+            if project.remarks
+              .remarks!= project.remarks
+    footer
+    | Last rendered #{new Date().toISOString()}
