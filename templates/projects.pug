@@ -22,9 +22,12 @@ html
               .name= project.name
             if project.description
               .description(class=project.name || project.concept ? '' : 'subname')
-                != project.description
                 if project.urls && project.urls.info
-                  a.moreinfo.badge(href=project.urls.info) More Info
+                  != project.description.trim().replace(/<\/p>$/, ` <a class="moreinfo badge" href="${project.urls.info}">More Info</a></p>`)
+                else
+                  != project.description
+            else if project.urls && project.urls.info
+              .description: p: a.moreinfo.badge(href=project.urls.info) More Info
             if project.urls
               .urls
                 if project.urls.home
