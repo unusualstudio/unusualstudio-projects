@@ -1,0 +1,6 @@
+concept: Nearest Neighbor Image Condensor
+description: >-
+  A script that consolidates 100% identical rows/columns of pixels (within an
+  expected ratio)
+stage: 0
+dex: 1
