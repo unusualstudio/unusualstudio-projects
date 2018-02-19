@@ -1,6 +1,7 @@
-concept: Universal Bug Tracker
-description: >-
-  A site where you can paste your error message and it tracks google results and
-  people can post comments and links to solutions
+concept: Grand Unified Ticket System
+urls:
+  info: https://github.com/stuartpb/barfspace/blob/master/universal-issue-tracker.md
+remarks: >-
+  This might make sense as a Secure Scuttlebutt project.
 stage: 0
-dex: 2
+dex: 7
