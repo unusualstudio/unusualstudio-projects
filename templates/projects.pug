@@ -8,9 +8,9 @@ html
   body
     - const stagenames = ['Seed Idea', 'Project in Development', 'Viable Project', 'Polished Project'];
     .projects: each project in projects
-      .project(class='stage-'+project.stage)
+      .project(class='stage-'+project.stage, id=project.id)
         .classification
-          .id= project.id
+          a(href='#'+project.id).id= project.id
           .stage-label= stagenames[project.stage || 0] || 'Stage ' + project.stage
         .details
           if project.urls && project.urls.logo
