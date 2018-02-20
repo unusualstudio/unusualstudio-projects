@@ -1,0 +1,11 @@
+name: initkey
+concept: In-Browser SSH Keygen
+stage: 2
+remarks: >-
+  I pretty much just comitted a raw proof-of-concept, with barely any styling
+  applied.
+urls:
+  logo: https://initkey.com/initkey-icon-256px.png
+  home: https://initkey.com/
+  repo: https://github.com/stuartpb/initkey
+dex: 35
