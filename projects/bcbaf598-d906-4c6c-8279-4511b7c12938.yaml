@@ -1,0 +1,9 @@
+name: manifesticon
+concept: Web App Manifest Polyfill for Desktop Browsers
+stage: 0
+remarks: >-
+  Based on a conversation with Nolan Lawson a few years ago, this would be how
+  I'd fulfill the goals described at
+  https://discourse.wicg.io/t/making-icons-less-painful-and-murky/870
+  back in 2015.
+dex: 80
