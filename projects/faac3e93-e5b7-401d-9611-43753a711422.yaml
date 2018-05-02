@@ -1,7 +1,6 @@
-concept: Bookmarklet Menu
-description: >-
-  A browser extension for running one-shot JavaScript functions from a dropdown
+concept: Bookmark(let) Menu
+name: Binder
 stage: 0
 urls:
-  info: https://github.com/h5bp/lazyweb-requests/issues/175
-dex: 2
+  repo: https://github.com/stuartpb/binder
+dex: 40
