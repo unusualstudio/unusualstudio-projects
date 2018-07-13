@@ -1,0 +1,6 @@
+name: vils
+concept: Textfile-Based File Manager
+stage: 1
+urls:
+  repo: 'https://github.com/stuartpb/vils'
+dex: 36
