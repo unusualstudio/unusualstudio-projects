@@ -1,0 +1,8 @@
+name: Gitchan
+concept: GitHub Meets 4chan
+stage: 1
+remarks: This seems like it could be a fun project for a hackathon.
+urls:
+  home: 'https://gitchan.org/'
+  repo: 'https://github.com/stuartpb/gitsuba'
+dex: 23

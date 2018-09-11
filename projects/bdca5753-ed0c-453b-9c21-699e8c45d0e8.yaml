@@ -1,0 +1,8 @@
+name: Wayside
+concept: Multi-Homing In-Browser IDE
+description: 'Like Cloud9, but newer, lighter, looser, and not owned by Amazon'
+stage: 0
+urls:
+  home: 'https://wayside.xyz/'
+  repo: 'https://github.com/waysidexyz'
+dex: 50
