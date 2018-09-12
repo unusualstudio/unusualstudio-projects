@@ -23,7 +23,7 @@ html
             if project.description
               .description(class=project.name || project.concept ? '' : 'subname')
                 if project.urls && project.urls.info
-                  != project.description.trim().replace(/<\/p>$/, ` <a class="moreinfo badge" href="${project.urls.info}">More Info</a></p>`)
+                  != project.description.replace(/<\/p>$/, ` <a class="moreinfo badge" href="${project.urls.info}">More Info</a></p>`)
                 else
                   != project.description
             else if project.urls && project.urls.info

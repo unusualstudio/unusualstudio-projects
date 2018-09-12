@@ -19,10 +19,10 @@ function projectFromFilename(filename) {
     const project = yaml.load(data);
     project.id = id;
     if (project.description) {
-      project.description = marked(project.description);
+      project.description = marked(project.description).trim();
     }
     if (project.remarks) {
-      project.remarks = marked(project.remarks);
+      project.remarks = marked(project.remarks).trim();
     }
     return project;
   });
